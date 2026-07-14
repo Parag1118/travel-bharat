@@ -19,3 +19,34 @@ A modern and responsive travel website built using React, Vite and Tailwind CSS 
 - 🔍 Search functionality
 - 📱 Fully Responsive Design
 - ⚡ Smooth animations with Framer Motion
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🧭 React Router DOM
+- 🎬 Framer Motion
+- 🌦️ OpenWeather API
+- 🗺️ Google Maps
+- 🎯 React Icons
+- ☁️ Vercel (Deployment)
+- 🐙 GitHub (Version Control)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 📱 Fully Responsive Design
+- ⚡ Smooth animations with Framer Motion
