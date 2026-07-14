@@ -80,5 +80,54 @@ Start the development server
 npm run dev
 ```
 
+---
+
+## 👨‍💻 Developer
+
+**Parag**
+
+Frontend Developer | React Developer
+
+---
+
+## 📬 Contact
+
+- GitHub: https://github.com/Parag1118
+- Live Demo: https://travel-bharat-beta.vercel.app/
+
+---
+
+## 🚀 Future Improvements
+
+- 🔐 User Authentication (Firebase)
+- 🤖 AI Travel Assistant
+- ☁️ Cloud Sync for Favorites
+- 📅 Hotel & Flight Booking
+- 🌍 Multi-language Support
+- 📱 Progressive Web App (PWA)
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
