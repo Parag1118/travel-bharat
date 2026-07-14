@@ -5,3 +5,17 @@ A modern and responsive travel website built using React, Vite and Tailwind CSS 
 ## 🌐 Live Demo
 
 **Website:** https://travel-bharat-beta.vercel.app/
+
+## ✨ Features
+
+- 🏞️ Explore all Indian states
+- 📍 Detailed information for every state
+- 🖼️ Interactive image gallery with Lightbox
+- 🌦️ Live Weather using OpenWeather API
+- 🗺️ Google Maps integration
+- ❤️ Favorite states
+- 🧳 Trip Planner
+- 🌙 Dark Mode
+- 🔍 Search functionality
+- 📱 Fully Responsive Design
+- ⚡ Smooth animations with Framer Motion
