@@ -52,7 +52,33 @@ A modern and responsive travel website built using React, Vite and Tailwind CSS 
 ### 🌙 Dark Mode
 (Add screenshot here)
 
+---
 
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Parag1118/travel-bharat.git
+```
+
+Go to the project folder
+
+```bash
+cd travel-bharat
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
 
 
 
