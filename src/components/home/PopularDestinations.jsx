@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { motion } from "framer-motion";
 
 import rajasthan from "../../assets/images/rajasthan.jpg";
@@ -7,16 +8,19 @@ import ladakh from "../../assets/images/ladakh.jpg";
 
 const destinations = [
   {
+    id: 1,
     name: "Rajasthan",
     image: rajasthan,
     description: "Land of Kings, forts and royal palaces.",
   },
   {
+    id: 2,
     name: "Goa",
     image: goa,
     description: "Beautiful beaches and vibrant nightlife.",
   },
   {
+    id: 3,
     name: "Kerala",
     image: kerala,
     description: "Backwaters, greenery and Ayurveda.",
@@ -30,7 +34,8 @@ const destinations = [
 
 export default function PopularDestinations() {
   return (
-    <section className="py-20 bg-gray-100">
+    <section id="popular-destinations"
+    className="py-20 bg-gray-100">
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-5xl font-bold text-center mb-4">
@@ -67,9 +72,12 @@ export default function PopularDestinations() {
                   {place.description}
                 </p>
 
-                <button className="mt-5 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg">
-                  Explore
-                </button>
+                <Link
+  to={`/states/${place.id}`}
+  className="inline-block mt-5 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg"
+>
+  Explore →
+</Link>
 
               </div>
 

@@ -11,11 +11,11 @@ export default function Navbar() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
 
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
+    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg shadow-md transition-all duration-300">
 
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-        <Link to="/" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2 shrink-0 hover:scale-105 transition duration-300">
           <FaPlaneDeparture className="text-3xl text-blue-600" />
           <h1 className="text-2xl font-bold text-blue-700 dark:text-white">
             Travel Bharat
@@ -28,7 +28,7 @@ export default function Navbar() {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-bold" : "hover:text-gray-800 dark:text-white hover:text-blue-500"
+              isActive ? "text-blue-500 font-bold" : "hover:text-gray-800 dark:text-white transition-all duration-300 hover:text-blue-600 hover:scale-110"
             }
           >
             Home
@@ -37,7 +37,7 @@ export default function Navbar() {
           <NavLink
             to="/states"
             className={({ isActive }) =>
-              isActive ? "text-blue-600 font-bold" : "hover:text-gray-800 dark:text-white hover:text-blue-500"
+              isActive ? "text-blue-600 font-bold" : "hover:text-gray-800 dark:text-white transition-all duration-300 hover:text-blue-600 hover:scale-110"
             }
           >
             Explore
@@ -46,8 +46,8 @@ export default function Navbar() {
   to="/trip-planner"
   className={({ isActive }) =>
     isActive
-      ? "text-blue-600 font-bold"
-      : "hover:text-blue-600 dark:text-white"
+      ? "text-blue-600 font-bold border-b-2 border-blue-600 pb-1"
+      : "transition-all duration-300 hover:text-blue-600 hover:scale-110 dark:text-white"
   }
 >
   Trip Planner
@@ -73,7 +73,7 @@ export default function Navbar() {
             to="/about"
             className={({ isActive }) =>
               isActive ? "text-blue-500 font-bold"
-                       : "text-gray-800 dark:text-white hover:text-blue-500"
+                       : "text-gray-800 dark:text-white transition-all duration-300 hover:text-blue-600 hover:scale-110"
             }
           >
             About
@@ -83,7 +83,7 @@ export default function Navbar() {
             to="/contact"
             className={({ isActive }) =>
               isActive ?  "text-blue-500 font-bold"
-                       : "text-gray-800 dark:text-white hover:text-blue-500"
+                       : "text-gray-800 dark:text-white transition-all duration-300 hover:text-blue-600 hover:scale-110"
             }
           >
             Contact
@@ -102,7 +102,7 @@ export default function Navbar() {
   </button>
 
   <button
-    className="md:hidden"
+    className="md:hidden hover:rotate-90 transition duration-300"
     onClick={() => setMenuOpen(!menuOpen)}
   >
     <HiMenu size={30} />
@@ -114,7 +114,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white px-6 pb-4 flex flex-col gap-4">
+        <div className="md:hidden bg-white dark:bg-gray-900 px-6 pb-4 flex flex-col gap-4 shadow-lg animate-fadeIn">
 
           <NavLink to="/">Home</NavLink>
           <NavLink to="/states">Explore</NavLink>
