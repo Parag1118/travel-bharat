@@ -35,18 +35,24 @@ A modern and responsive travel website built using React, Vite and Tailwind CSS 
 - ☁️ Vercel (Deployment)
 - 🐙 GitHub (Version Control)
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+(Add screenshot here)
+
+### 🗺️ Explore States
+(Add screenshot here)
+
+### 📍 State Details
+(Add screenshot here)
+
+### 🧳 Trip Planner
+(Add screenshot here)
+
+### 🌙 Dark Mode
+(Add screenshot here)
 
 
 
 
 
-
-
-
-
-
-
-
-
-- 📱 Fully Responsive Design
-- ⚡ Smooth animations with Framer Motion
