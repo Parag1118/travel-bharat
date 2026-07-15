@@ -38,19 +38,19 @@ A modern and responsive travel website built using React, Vite and Tailwind CSS 
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-(Add screenshot here)
+![Home](./screenshots/home.png)
 
-### 🗺️ Explore States
-(Add screenshot here)
-
-### 📍 State Details
-(Add screenshot here)
+### 🗺️ Explore Page
+![Explore](./screenshots/explore.png)
 
 ### 🧳 Trip Planner
-(Add screenshot here)
+![Trip Planner](./screenshots/planner.png)
+
+### 🌦️ Weather
+![Weather](./screenshots/weather.png)
 
 ### 🌙 Dark Mode
-(Add screenshot here)
+![Dark Mode](./screenshots/darkmode.png)
 
 ---
 
